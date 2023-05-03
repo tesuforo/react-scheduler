@@ -162,6 +162,7 @@ export const EventActions = styled("div")(({ theme }) => ({
     color: theme.palette.primary.contrastText,
   },
   "& .MuiButton-root": {
+    "box-shadow": "inset 0px 0px 5px 0.5px",
     "&.delete": {
       color: theme.palette.error.main,
     },

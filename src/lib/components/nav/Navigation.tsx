@@ -102,9 +102,15 @@ const Navigation = () => {
           visibility: disableViewNavigator ? "hidden" : "visible",
         }}
       >
-        <Button onClick={() => handleSelectedDateChange(new Date())}>
+        <Button
+          style={{
+            marginRight: "100px",
+          }}
+          onClick={() => handleSelectedDateChange(new Date())}
+        >
           {translations.navigation.today}
         </Button>
+
         {views.length > 1 &&
           (isDesktop ? (
             views.map((v) => (
