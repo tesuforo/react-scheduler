@@ -17,6 +17,8 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
+
+  
   "settings": {
     "react": {
       "version": "detect"
@@ -24,7 +26,8 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "linebreak-style": ["error", "unix"],
+
+   "linebreak-style":0,
     "quotes": ["error", "double", { "allowTemplateLiterals": true }],
     "semi": ["error", "always"],
     "@typescript-eslint/no-non-null-assertion": 0,

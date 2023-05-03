@@ -101,5 +101,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "@aldabil/react-scheduler": "^2.7.9",
+    "@pnpm/lifecycle": "^15.0.0",
+    "eslint-plugin-better-linebreak-style": "^0.0.1-beta.1",
+    "npm-lifecycle": "^3.1.5",
+    "webpack": "^5.81.0"
   }
 }
